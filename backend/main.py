@@ -6,7 +6,7 @@ from utils.devops_assistant import review_devops
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+load_dotenv()   
 print("🟢 API KEY LOADED:", os.getenv("OPENAI_API_KEY"))
 
 app = FastAPI()
